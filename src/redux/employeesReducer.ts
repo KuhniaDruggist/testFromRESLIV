@@ -56,7 +56,9 @@ export const employeesReducer = (state: InitialStateType = initialState, action:
                         last_name: state.newLastName,
                         avatar: null,
                         email: null
-                    }, ...state.employees]
+                    }, ...state.employees],
+                    newFirstName: '',
+                    newLastName: ''
                 }
             }
             return state
