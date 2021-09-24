@@ -9,24 +9,16 @@ function Header() {
                 <ul className={style.list}>
                     <li className={style.item}>
                         <NavLink className={style.link} to="/">
-                            Главная
+                            Home
                         </NavLink>
                     </li>
                     <li className={style.item}>
                         <NavLink className={style.link} to="/employees">
-                            Сотрудники
+                            Employees
                         </NavLink>
                     </li>
                 </ul>
             </nav>
-
-            <ul className={style.userNavigation}>
-                <li className={style.item}>
-                    <NavLink className={style.link} to={'/login'}>
-                        Вход
-                    </NavLink>
-                </li>
-            </ul>
         </header>
     );
 }

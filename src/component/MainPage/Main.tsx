@@ -4,7 +4,7 @@ import style from './Main.module.css'
 function Main() {
     return (
         <div>
-            <h1 className={style.title}>Главная страница</h1>
+            <h1 className={style.title}>Home page</h1>
         </div>
     );
 }
