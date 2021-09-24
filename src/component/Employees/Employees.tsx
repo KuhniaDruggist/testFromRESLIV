@@ -3,6 +3,7 @@ import style from './Employees.module.css';
 import employeePhotoDefault from '../../assets/img/user.png';
 import axios from 'axios';
 import {EmployeesPropsType} from './EmployeesContainer';
+import EmployeeForm from './EmployeeForm/EmployeeForm';
 
 class Employees extends React.Component<EmployeesPropsType> {
     componentDidMount() {
@@ -15,7 +16,13 @@ class Employees extends React.Component<EmployeesPropsType> {
     render() {
         return (
             <div>
-                <h1 className={style.title}>Список сотрудников</h1>
+                <h1 className={style.title}>A list of employees</h1>
+                <EmployeeForm changeNewFirstName={this.props.changeNewFirstName}
+                              changeNewLastName={this.props.changeNewLastName}
+                              newFirstName={this.props.newFirstName}
+                              newLastName={this.props.newLastName}
+                              addEmployee={this.props.addEmployee}
+                />
                 <ul className={style.employees}>
                     {
                         this.props.employees.map(u => {
