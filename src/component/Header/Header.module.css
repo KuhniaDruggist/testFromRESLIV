@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.list {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+
+.item {
+    margin-right: 10px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.link:hover{
+    color: #5e5e5e;
+}
+
+.link:active{
+    color: #ffffff;
+}
+
+.userNavigation {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
