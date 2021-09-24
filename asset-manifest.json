@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/testFromRESLIV/static/css/main.7c0436a7.chunk.css",
+    "main.js": "/testFromRESLIV/static/js/main.1aba6693.chunk.js",
+    "main.js.map": "/testFromRESLIV/static/js/main.1aba6693.chunk.js.map",
+    "runtime-main.js": "/testFromRESLIV/static/js/runtime-main.86e5156b.js",
+    "runtime-main.js.map": "/testFromRESLIV/static/js/runtime-main.86e5156b.js.map",
+    "static/js/2.f60bda36.chunk.js": "/testFromRESLIV/static/js/2.f60bda36.chunk.js",
+    "static/js/2.f60bda36.chunk.js.map": "/testFromRESLIV/static/js/2.f60bda36.chunk.js.map",
+    "index.html": "/testFromRESLIV/index.html",
+    "static/css/main.7c0436a7.chunk.css.map": "/testFromRESLIV/static/css/main.7c0436a7.chunk.css.map",
+    "static/js/2.f60bda36.chunk.js.LICENSE.txt": "/testFromRESLIV/static/js/2.f60bda36.chunk.js.LICENSE.txt",
+    "static/media/user.b6ca791b.png": "/testFromRESLIV/static/media/user.b6ca791b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86e5156b.js",
+    "static/js/2.f60bda36.chunk.js",
+    "static/css/main.7c0436a7.chunk.css",
+    "static/js/main.1aba6693.chunk.js"
+  ]
+}
