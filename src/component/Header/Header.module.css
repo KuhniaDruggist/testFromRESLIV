@@ -26,11 +26,11 @@
     color: black;
 }
 
-.link:hover{
+.link:hover {
     color: #5e5e5e;
 }
 
-.link:active{
+.link:active {
     color: #ffffff;
 }
 

@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import {Dispatch} from 'redux';
 import Employees from './Employees';
-import {setEmployees, removeEmployee, EmployeesType} from '../../redux/employeesReducer';
+import {EmployeesType, removeEmployee, setEmployees} from '../../redux/employeesReducer';
 import {RootStateType} from '../../redux/redux-store';
 
 //Typing for Users component props
